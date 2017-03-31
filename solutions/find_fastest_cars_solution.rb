@@ -20,7 +20,7 @@ puts '-----------'
 # Given our list of cars, determine the five with the highest horsepower.
 # Print only the horsepower numbers to the screen, in descending order.
 
-top_five_horsepower = cars.sort_by{|car| car.horsepower}.reverse[0..4].map(&:horsepower)
+top_five_horsepower = cars.sort_by(&:horsepower).reverse[0..4].map(&:horsepower)
 puts 'Top 5 horsepower:'
 puts top_five_horsepower
 puts '-----------'
@@ -32,7 +32,7 @@ puts '-----------'
 # 1. determine which five cars have the best power-to-weight ratio and print their names
 # 2. of those five cars, print which ones are also in the top five for 0-to-60 time
 
-top_five_power_to_weight = cars.sort_by{ |car| car.weight / car.horsepower }[0..4].map{|car| "#{car.make} #{car.model}"}
+top_five_power_to_weight = cars.sort_by{ |car| car.weight.to_f / car.horsepower.to_f }[0..4].map{|car| "#{car.make} #{car.model}"}
 puts 'Top 10 power to weight ratio:'
 puts top_five_power_to_weight
 puts '-------------'
