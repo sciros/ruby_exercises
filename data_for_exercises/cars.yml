@@ -1,0 +1,151 @@
+---
+- !ruby/object:Car
+  make: Chevrolet
+  model: Corvette
+  horsepower: 460
+  zero_to_sixty: 3.7
+  weight: 3298
+- !ruby/object:Car
+  make: Subaru
+  model: Forester XT
+  horsepower: 250
+  zero_to_sixty: 6.1
+  weight: 3653
+- !ruby/object:Car
+  make: Ferrari
+  model: 812 Superfast
+  horsepower: 789
+  zero_to_sixty: 2.9
+  weight: 3362
+- !ruby/object:Car
+  make: Bugatti
+  model: Chiron
+  horsepower: 1500
+  zero_to_sixty: 2.4
+  weight: 4400
+- !ruby/object:Car
+  make: Nissan
+  model: Altima SR
+  horsepower: 270
+  zero_to_sixty: 6.2
+  weight: 3258
+- !ruby/object:Car
+  make: Land Rover
+  model: Ranger Rover Sport
+  horsepower: 254
+  zero_to_sixty: 7.4
+  weight: 4727
+- !ruby/object:Car
+  make: Toyota
+  model: 4Runner
+  horsepower: 270
+  zero_to_sixty: 7.3
+  weight: 4400
+- !ruby/object:Car
+  make: Porsche
+  model: 911 Turbo S
+  horsepower: 540
+  zero_to_sixty: 2.6
+  weight: 3527
+- !ruby/object:Car
+  make: Porsche
+  model: 918 Spyder
+  horsepower: 887
+  zero_to_sixty: 2.2
+  weight: 3602
+- !ruby/object:Car
+  make: McLaren
+  model: 675LT
+  horsepower: 666
+  zero_to_sixty: 2.9
+  weight: 2927
+- !ruby/object:Car
+  make: Chevrolet
+  model: Corvette Z06
+  horsepower: 650
+  zero_to_sixty: 3.0
+  weight: 3524
+- !ruby/object:Car
+  make: Ferrari
+  model: 488GTB
+  horsepower: 661
+  zero_to_sixty: 2.9
+  weight: 3362
+- !ruby/object:Car
+  make: Mini
+  model: Cooper
+  horsepower: 134
+  zero_to_sixty: 7.3
+  weight: 2605
+- !ruby/object:Car
+  make: Mazda
+  model: MX-5 Miata
+  horsepower: 155
+  zero_to_sixty: 5.8
+  weight: 2332
+- !ruby/object:Car
+  make: Nissan
+  model: GT-R Nismo
+  horsepower: 600
+  zero_to_sixty: 2.9
+  weight: 3911
+- !ruby/object:Car
+  make: Lamborghini
+  model: Aventador LP750-4 SV
+  horsepower: 740
+  zero_to_sixty: 2.7
+  weight: 3315
+- !ruby/object:Car
+  make: Honda
+  model: CRV
+  horsepower: 190
+  zero_to_sixty: 7.6
+  weight: 3512
+- !ruby/object:Car
+  make: Honda
+  model: Ridgeline
+  horsepower: 280
+  zero_to_sixty: 6.6
+  weight: 4242
+- !ruby/object:Car
+  make: Toyota
+  model: 86
+  horsepower: 205
+  zero_to_sixty: 6.2
+  weight: 2760
+- !ruby/object:Car
+  make: Toyota
+  model: Camry XSE
+  horsepower: 268
+  zero_to_sixty: 6.1
+  weight: 3350
+- !ruby/object:Car
+  make: Toyota
+  model: Highlander
+  horsepower: 280
+  zero_to_sixty: 7.6
+  weight: 4655
+- !ruby/object:Car
+  make: Acura
+  model: NSX
+  horsepower: 573
+  zero_to_sixty: 3.1
+  weight: 3803
+- !ruby/object:Car
+  make: Acura
+  model: TLX
+  horsepower: 290
+  zero_to_sixty: 5.8
+  weight: 3774
+- !ruby/object:Car
+  make: Infiniti
+  model: RC-F
+  horsepower: 467
+  zero_to_sixty: 4.3
+  weight: 3958
+- !ruby/object:Car
+  make: BMW
+  model: M4
+  horsepower: 444
+  zero_to_sixty: 4.0
+  weight: 3530
