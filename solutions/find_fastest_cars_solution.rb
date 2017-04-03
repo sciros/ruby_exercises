@@ -12,6 +12,7 @@ cars = YAML.load_file('../data_for_exercises/cars.yml')
 # Print their names (make and model) to the screen, in ascending order of their 0-to-60 time.
 
 top_five_zero_to_sixty = cars.sort_by{|car| car.zero_to_sixty}[0..4].map{|car| "#{car.make} #{car.model}"}
+# note: using concatenation instead of interpolation necessitates explicit string conversion (.to_s) because of the Toyota 86
 puts 'Top 10 0-to-60:'
 puts top_five_zero_to_sixty
 puts '-----------'
